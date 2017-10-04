@@ -84,6 +84,7 @@ In the back end, the HTML markup will contain `i18n` placeholders and content fo
 - Be mindful of how colors are perceived - Colors are perceived differently across languages and cultures. The design should use color appropriately.
 - Formatting dates and currencies - Calendar dates are sometimes presented in different ways. Eg. "May 31, 2012" in the U.S. vs. "31 May 2012" in parts of Europe.
 - Do not concatenate translated strings - Do not do anything like `"The date today is " + date`. It will break in languages with different word order. Using template parameters instead.
+- Language reading direction - In English, we read from left-to-right, top-to-bottom, in traditional Japanese, text is read up-to-down, right-to-left.
 
 ###### References
 
@@ -620,7 +621,7 @@ For an in-depth explanation, do check out his [article on Medium](https://codebu
 
 ### Explain how prototypal inheritance works
 
-This is an extremely common JavaScript interview question. All JavaScript objects have a `prototype` property, that is a reference to another object. When a property is accessed on an object and if the property is not found on that object, the JavaScript engine looks at the object's `prototype`. and the `prototype`'s `prototype` and so on, until it finds the property defined on one of the `prototype`s or until it reaches the end of the prototype chain. This behaviour simulates classical inheritance, but it is really more of [delegation than inheritance](https://davidwalsh.name/javascript-objects).
+This is an extremely common JavaScript interview question. All JavaScript objects have a `prototype` property, that is a reference to another object. When a property is accessed on an object and if the property is not found on that object, the JavaScript engine looks at the object's `prototype`, and the `prototype`'s `prototype` and so on, until it finds the property defined on one of the `prototype`s or until it reaches the end of the prototype chain. This behaviour simulates classical inheritance, but it is really more of [delegation than inheritance](https://davidwalsh.name/javascript-objects).
 
 ###### References
 
@@ -675,12 +676,12 @@ console.log(foo == null); // true. Wrong, don't use this to check!
 
 function bar() {}
 var baz = bar();
-console.log(baz === undefined); // undefined
+console.log(baz); // undefined
 ```
 
 A variable that is `null` will have been explicitly assigned to the `null` value. It represents no value and is different from `undefined` in the sense that it has been explicitly assigned. To check for `null,` simply compare using the strict equality operator. Note that like the above, you should not be using the abstract equality operator (`==`) to check, as it will also return `true` if the value is `undefined`.
 
-```
+```js
 var foo = null;
 console.log(foo === null); // true
 
