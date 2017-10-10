@@ -18,9 +18,10 @@ Carefully curated content to help you ace your next technical interview, with a 
 - [How to prepare](preparing) for coding interviews
 - [Algorithm tips and the best practice questions](algorithms) categorized by topic
 - ["Front-end Job Interview Questions" answers](front-end/interview-questions.md)
-- [Interview formats](non-technical/format.md) of the top tech companies
+- [Interview formats](non-technical/interview-formats.md) of the top tech companies
 - [Behavioral questions](non-technical/behavioral.md) categorized by companies
 - [Good questions to ask your interviewers](non-technical/questions-to-ask.md) at the end of the interviews
+- [Helpful resume tips](non-technical/resume.md) to get your resume noticed and the Do's and Don'ts
 
 This handbook is pretty new and help from you in contributing content would be very much appreciated!
 
@@ -46,12 +47,18 @@ Also, existing resources focus mainly on algorithm questions, and lack in covera
 - **[Front-end Study Notes](front-end)** - Summarized notes on the various aspects of front-end
   - [Front-end Job Interview Questions and Answers](front-end/interview-questions.md) 🔥⭐
 - **[Non-Technical Tips](non-technical)** - Random non-technical tips that cover behavioral and psychological aspects, interview formats and "Do you have any questions for me?"
+  - [Resume Tips](non-technical/resume.md)
   - [Behavioral Questions](non-technical/behavioral.md)
-  - [Interview Formats](non-technical/format.md)
-  - [Psychological Tricks](non-technical/psychological.md)
+  - [Interview Formats](non-technical/interview-formats.md)
+  - [Psychological Tricks](non-technical/psychological-tricks.md)
   - [Questions to Ask](non-technical/questions-to-ask.md)
   - [Negotiation Tips](non-technical/negotiation.md)
-- **[Utilities](utilities)** - Snippets of algorithms/code that will help in coding questions.
+- **[Utilities](utilities)** - Snippets of algorithms/code that will help in coding questions
+  - **UPDATE** - Check out [Lago](https://github.com/yangshun/lago), which is a Data Structures and Algorithms library that contains more high quality implementations with 100% test coverage.
+
+## Related
+
+If you are interested in how data structures are implemented, check out [Lago](https://github.com/yangshun/lago), a Data Structures and Algorithms library for JavaScript. It is pretty much still WIP but I intend to make it into a library that is able to be used in production and also a reference resource for revising Data Structures and Algorithms.
 
 ## Contributing
 

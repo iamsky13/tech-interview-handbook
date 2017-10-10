@@ -46,6 +46,16 @@ These questions are suitable for any technical role.
 - What do you measure? What are your most important product metrics?
 - What does the company do to nurture and train its employees?
 - How often have you moved teams? What made you join the team you're on right now? If you wanted to move teams, what would need to happen?
+- If you hire person, what do you have for him to study product you're working on and processes in general? Do you have specifications, requirements, documentation?
+- There's "C++" (or Python, Swift or any other tech) in the job description. How will you estimate my proficiency in this tech in 3 months?
+
+### Product
+
+- Tell me about the main products of your company.
+- What is the current version of product? (If it is v1.0 or similar - there could be a lot of chaos to work with)
+- What products are your main competitors?
+- What makes your product competitive?
+- When are you planning to provide the next release? (If in several months, it would mean a lot of requirements specified in job description are not needed right now)
 
 ### Management
 
