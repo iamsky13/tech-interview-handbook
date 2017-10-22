@@ -67,13 +67,14 @@ Information that a recruiter wants to know:
 
 Information nobody needs to know:
 
+- Your profile picture.
 - Address, home phone number, gender, religion, race, marital status, etc etc.
 - Elementary, middle, high school.
 - Your low GPA.
 - Anything less recent than 3-4 years unless they are valid job experiences.
 - Anything about your parents/siblings, their names, occupation, etc.
 - Your life story.
-- Anything not relevant to the job you are applying for (eg. that you have a driving license when you are applying to be a programmer).
+- Anything not relevant to the job you are applying for (e.g. that you have a driving license when you are applying to be a programmer).
 
 Ideally, keep it short, concise, but as detailed as possible.
 
@@ -107,17 +108,19 @@ Always list your resume in reverse chronological order - the most recent at the 
 - Avoid emails like "me@christi.na" or "admin@[mycooldomain].com" -- because it is very prone to typo errors.
 - Make sure the number you have listed is the best way to reach you. The last thing you want is to miss the call from the recruiter because you typed the wrong number, or you are not available on that number during office hours (most probably the times the recruiter will call).
 
-#### 7. Formatting/Design
+#### 7. Layout/Formatting/Design
 
 - Be consistent about the way you format your resume. Italics, underline, bold, and how they are used.
 - Keep to a single standard font (avoid fancy fonts like Comic Sans or whatever) and do not have too many varying styles/font sizes/color
 - Be consistent about the way you list your dates (eg. May 2011 - Aug 2011). Avoid using numerals for both month and date due to the difference in style for MMDD and DDMM in different countries. Dates like "Aug 2011 - June 12" just show that you have zero attention to detail.
 - Unless you are applying for a design job, just stick to the standard "table" style for the resume. There is nothing wrong with the standard style, and it helps the recruiter screen your resume more efficiently since they are trained through experience to read that format. It would also help in the automatic scoring by the ATS. The last thing you want is for your application to be rejected because the system could not parse your resume for it to be scored. That said, I am not discouraging you from coming up with your own design. It is nice to read something different. Just be aware of the risks you could be taking.
-- Name your file `firstname_lastname_resume.pdf` instead of `resume.pdf - it is easier for recruiters to search/forward.
+- Name your file `firstname_lastname_resume.pdf` instead of `resume.pdf` - it is easier for recruiters to search/forward.
 - PDF preferred over Word doc.
 - Be consistent about bullet points.
 - Your resume should not look sparse. (Come on, it is only 1 page!) If you really have trouble filling it up, you are either not thinking hard enough, or not doing enough. In the case of the latter, consider working on your personal projects (i.e. stuff you can post on GitHub). That said, do not write stuff just to fill space. Read point 4.
 - This should be common sense, but do not commit fraud, i.e. apply for the same job using a different name, or using your friend's resume to apply for the same job. Some ATS issues an indicator if they suspect the application to be a duplicate.
+- It's important to note the layout of your resume. If you choose to quickly upload your resume via an auto-fill program, understand that the program will read your resume from top to bottom, left to right. This is good to keep in mind when developing the layout of your resume.
+- Try to keep white space down to a minimum. This will also help reduce the length of your resume to one page. Reduce margins and paddings reasonably.
 
 #### 8. Listing Your skills
 

@@ -16,6 +16,7 @@
 Carefully curated content to help you ace your next technical interview, with a focus on algorithms and the front end domain. System design questions are in-progress. Besides the usual algorithm questions, other **awesome** stuff includes:
 
 - [How to prepare](preparing) for coding interviews
+- [Interview Cheatsheet](preparing/cheatsheet.md) - Straight-to-the-point Do's and Don'ts 🆕
 - [Algorithm tips and the best practice questions](algorithms) categorized by topic
 - ["Front-end Job Interview Questions" answers](front-end/interview-questions.md)
 - [Interview formats](non-technical/interview-formats.md) of the top tech companies
@@ -37,11 +38,12 @@ Anybody who wants to land a job at a tech company but is new to technical interv
 
 There are so many awesome books like [Cracking the Coding Interview](http://www.crackingthecodinginterview.com/) and interview-related repositories out there on GitHub, what makes this repository different? The difference is that many existing interview repositories contain mainly links to external resources whereas this repository contains top quality curated content directly for your consumption.
 
-Also, existing resources focus mainly on algorithm questions, and lack in coverage for more domain-specific and non-technical questions. This handbook aims to cover content beyond the typical algorithmic coding questions. 😎
+Also, existing resources focus mainly on algorithm questions and lack in coverage for more domain-specific and non-technical questions. This handbook aims to cover content beyond the typical algorithmic coding questions. 😎
 
 ## Contents
 
 - **[Preparing for a Coding Interview](preparing)**
+  - [Interview cheatsheet](preparing/cheatsheet.md) - Straight-to-the-point Do's and Don'ts
 - **[Algorithm Questions](algorithms)** - Questions categorized by topics
 - **[Design Questions](design)**
 - **[Front-end Study Notes](front-end)** - Summarized notes on the various aspects of front-end
@@ -54,7 +56,7 @@ Also, existing resources focus mainly on algorithm questions, and lack in covera
   - [Questions to Ask](non-technical/questions-to-ask.md)
   - [Negotiation Tips](non-technical/negotiation.md)
 - **[Utilities](utilities)** - Snippets of algorithms/code that will help in coding questions
-  - **UPDATE** - Check out [Lago](https://github.com/yangshun/lago), which is a Data Structures and Algorithms library that contains more high quality implementations with 100% test coverage.
+  - **UPDATE** - Check out [Lago](https://github.com/yangshun/lago), which is a Data Structures and Algorithms library that contains more high-quality implementations with 100% test coverage.
 
 ## Related
 
