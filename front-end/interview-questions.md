@@ -200,6 +200,10 @@ Answers to [Front-end Job Interview Questions - CSS Questions](https://github.co
 - **IDs** - Meant to be unique within the document. Can be used to identify an element when linking using a fragment identifier. Elements can only have one `id` attribute.
 - **Classes** - Can be reused on multiple elements within the document. Mainly for styling and targeting elements.
 
+###### References
+- https://www.w3.org/TR/CSS1/#id-as-selector
+- https://www.w3.org/TR/CSS1/#class-as-selector
+
 ### What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
 
 - **Resetting** - Resetting is meant to strip all default browser styling on elements. For e.g. `margin`s, `padding`s, `font-size`s of all elements are reset to be the same. You will have to redeclare styling for common typographic elements.
@@ -294,6 +298,10 @@ CSS sprites combine multiple images into one single larger image. It is commonly
 - Reduce the number of HTTP requests for multiple images (only one single request is required per spritesheet). But with HTTP2, loading multiple images is no longer much of an issue.
 - Advance downloading of assets that won't be downloaded until needed, such as images that only appear upon `:hover` pseudo-states. Blinking wouldn't be seen.
 
+###### References
+
+- https://css-tricks.com/css-sprites/
+
 ### What are your favorite image replacement techniques and which do you use when?
 
 CSS image replacement is a technique of replacing a text element (usually a header tag like an `<h1>`) with an image (often a logo). It has its origins in the time before web fonts and SVG. For years, web developers battled against browser inconsistencies to craft image replacement techniques that struck the right balance between design and accessibility.
@@ -327,8 +335,16 @@ These techniques are related to accessibility (a11y).
 - `width: 0; height: 0`. Make the element not take up any space on the screen at all, resulting in not showing it.
 - `position: absolute; left: -99999px`. Position it outside of the screen.
 - `text-indent: -9999px`. This only works on text within the `block` elements.
+- Metadata. For example by using Schema.org, RDF and JSON-LD.
+- WAI-ARIA. A W3C technical specification that specifies how to increase the accessibility of web pages.
 
-I would go with the `absolute` positioning approach, as it has the least caveats and works for most elements.
+Even if WAI-ARIA is the ideal solution, I would go with the `absolute` positioning approach, as it has the least caveats, works for most elements and it's an easy technique.
+
+###### References
+
+- https://www.w3.org/TR/wai-aria-1.1/
+- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA
+- http://a11yproject.com/
 
 ### Have you ever used a grid system, and if so, what do you prefer?
 
